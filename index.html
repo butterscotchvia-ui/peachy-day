@@ -1,10 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Peachy Day 🍑</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>🌷 Peachy Day 🌷</h1>
-  <p>HII THERE SWEETIEE ♡!</p>
+  <div class="card">
+    <h1>🍑 Peachy Day</h1>
+
+    <p>Choose your mood today 🌷</p>
+
+    <div class="moods">
+      <button onclick="setMood('😊 Happy')">😊</button>
+
+      <button onclick="setMood('😌 Relaxed')">😌</button>
+
+      <button onclick="setMood('🤩 Excited')">🤩</button>
+
+      <button onclick="setMood('😴 Tired')">😴</button>
+
+      <button onclick="setMood('😭 Sad')">😭</button>
+    </div>
+
+    <h2 id="result">No mood selected yet</h2>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
